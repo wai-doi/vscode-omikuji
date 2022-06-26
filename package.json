@@ -10,14 +10,14 @@
 		"Other"
 	],
 	"activationEvents": [
-        "onCommand:vscode-omikuji.helloWorld"
+        "*"
 	],
 	"main": "./dist/extension.js",
 	"contributes": {
 		"commands": [
 			{
-				"command": "vscode-omikuji.helloWorld",
-				"title": "Hello World"
+				"command": "vscode-omikuji.omikuji",
+				"title": "おみくじを引く"
 			}
 		]
 	},
